@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>plg_system_less</name>
+	<author>VampiRUS</author>
+	<creationDate>January 2014</creationDate>
+	<copyright>Copyright (C) vampirus.ru 2014 . All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>vamp1rus@yandex.ru</authorEmail>
+	<authorUrl>vampirus.ru</authorUrl>
+	<version>0.0.1</version>
+	<description>PLG_SYSTEM_LESS_DESC</description>
+	<languages>
+    <language tag="en-GB">en-GB.plg_system_less.ini</language>
+    <language tag="en-GB">en-GB.plg_system_less.sys.ini</language>
+    <language tag="ru-RU">ru-RU.plg_system_less.ini</language>
+    <language tag="ru-RU">ru-RU.plg_system_less.sys.ini</language>
+  </languages>
+	<files>
+		<filename plugin="less">less.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="version" type="text"
+					description=""
+					label="PLG_SYSTEM_LESS_FIELD_VERSION_LABEL"
+					default="1.6.1"
+				>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
